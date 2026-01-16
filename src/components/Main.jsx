@@ -46,13 +46,14 @@ const Main = ({ name, post }) => {
             <div
               className="w-9/10 h-2/3 bg-transparent grid grid-rows-2 gap-y-8
           ">
-              <div className="w-full flex justify-items-start gap-x-10 sm:gap-x-40 shadow-style">
-                <div className="image-box">
+              <div className="w-full flex justify-items-start gap-x-10 sm:gap-x-40 shadow-style overflow-auto">
+                <div className="image-box scroll-auto no-scrollbar">
                   <h1 className="heading-style">World of coding</h1>
                   <div
                     className="w-40 h-40 bg-center bg-cover"
                     style={{ backgroundImage: `url(${coder})` }}></div>
                   <div className="w-full p-5 pl-0">
+                    <p className="text-red-700 font-extrabold text-md hover:text-lg"><a href="https://github.com/raeekto/C-project----group-Dilip">Codings-projects</a></p>
                     <p className="text-white font-bold">
                       The World of Coding in the Modern Technology Era Coding
                       has become one of the most powerful skills in today’s
